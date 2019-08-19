@@ -1,0 +1,26 @@
+{
+  "name": "practice8_physics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html ",
+    "prod": "parcel build index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "cssnano": "^4.1.10",
+    "sass": "^1.22.9"
+  },
+  "dependencies": {
+    "babylonjs": "^4.0.3",
+    "babylonjs-gui": "^4.0.3",
+    "babylonjs-loaders": "^4.0.3",
+    "babylonjs-procedural-textures": "^4.0.3",
+    "cannon": "^0.6.2"
+  }
+}

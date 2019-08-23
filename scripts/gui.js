@@ -23,6 +23,16 @@ export default class Gui{
             button1.horizontalAlignment = GUI.Control.HORIZONTAL_ALIGNMENT_LEFT
             button1.verticalAlignment = GUI.Control.VERTICAL_ALIGNMENT_TOP
             UI.addControl(button1)    
+        let button2 = GUI.Button.CreateImageOnlyButton("but2", "./GitHub-Mark.png")     
+            button2.width = "40px"
+            button2.height = "40px"
+            button2.alpha = "0.5"
+            button2.onPointerDownObservable.add(() => {
+                window.open("https://github.com/Takebon/babylon_ragdoll_robi")
+            })
+            button2.horizontalAlignment = GUI.Control.HORIZONTAL_ALIGNMENT_RIGHT
+            button2.verticalAlignment = GUI.Control.VERTICAL_ALIGNMENT_BOTTOM
+            UI.addControl(button2)
     }
     
 }

@@ -12,7 +12,8 @@ export default class Model{
             this.robi.position.y += 15
             this.robiParts = newMeshes.filter(mesh => mesh.name !== "__root__")
             this.runShadowGenerator()   
-            this.addImpostors(newMeshes)       
+            this.addImpostors(newMeshes)
+            document.querySelector('.loader').style.display = 'none'
         })
     }
 

@@ -1,7 +1,6 @@
 import * as BABYLON from 'babylonjs'
 import 'babylonjs-loaders'
 window.CANNON = require('cannon')
-import './style/style.scss'
 import SceneCreator from './scripts/sceneCreator'
 import Gui from './scripts/gui'
 
